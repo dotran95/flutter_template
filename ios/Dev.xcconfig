@@ -1,0 +1,14 @@
+//
+//  Dev.xcconfig
+//  Runner
+//
+//  Created by DoTN on 20/06/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Flutter/Generated.xcconfig"
+
+APP_NAME=App Dev
+APP_IDENTIFIER=com.dotn.app_dev
+
