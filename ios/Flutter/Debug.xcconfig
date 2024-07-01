@@ -1,0 +1,3 @@
+#include "Generated.xcconfig"
+APP_NAME=App Product
+APP_IDENTIFIER=com.dotn.app
