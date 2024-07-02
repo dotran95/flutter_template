@@ -7,12 +7,16 @@ IOS_EXPORT_OPTION_PATH=./script/ExportOptions_adhoc.Plist
 
 #Setup
 setup: 
-	fvm install
+	$f install
 	make inst
+	make gen
 
 inst: 
 	$f pub get 
 	cd ios && rm -rf Podfile.lock && pod deintegrate && pod install --verbose && cd ..
+
+gen:
+	$d run build_runner build
 
 doctor:
 	$f doctor
