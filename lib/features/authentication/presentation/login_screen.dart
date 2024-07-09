@@ -1,4 +1,4 @@
-import 'package:app/core/widgets/base_widget.dart';
+import 'package:app/core/presentation/widgets/base_widget.dart';
 
 @RoutePage()
 class LoginScreen extends HookConsumerWidget {

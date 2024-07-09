@@ -1,5 +1,5 @@
-import 'package:app/core/widgets/base_widget.dart';
-import 'package:app/core/widgets/loading_widget.dart';
+import 'package:app/core/presentation/widgets/base_widget.dart';
+import 'package:app/core/presentation/widgets/loading_widget.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
